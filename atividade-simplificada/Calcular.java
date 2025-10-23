@@ -1,12 +1,11 @@
-public class Calculadora{
-    public static void Calculadora{
-        public void processar(Pedido pedido) {
-            // 1. Responsabilidade: Calcular o total
+public class Calcular{
+    public static void calcular(Pedido pedido){
+      
             double total = 0;
                 for (Item item : pedido.getItens()) {
                 total += item.getPreco();
             }
             System.out.println("Total do pedido: " + total);
         }
-    }
+    
 }

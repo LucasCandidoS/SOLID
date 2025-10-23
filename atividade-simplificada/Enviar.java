@@ -1,7 +1,10 @@
 public class Enviar{
-    public static void Enviar{
-         // 4. Responsabilidade: Enviar e-mail
+    public static void enviar(){
         System.out.println("Enviando e-mail de confirmação...");
-        // Lógica de envio de e-mail
+    }
+
+    public void enviar(Pedido pedido) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'enviar'");
     }
 }
